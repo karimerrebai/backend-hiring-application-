@@ -1,0 +1,17 @@
+1 to display all the companies we use the getallcompanies method in 
+the backend and consume it in the front end  
+2 than we display a company by its id to get all the information that we need 
+then we simply can confirm the company or refuse and delete it  
+
+3 if it its confirmed than it can acess and login in the website other wise it cant 
+acecc to our web application .
+4 to do that we have to add an attribute to our company called isConfirmed and by deafult 
+should get false 
+5 then when it register its own data the admin should get a notification that a company
+has registred in our data base and if it is legall company the admin will consume 
+a backend service and confirm the  company  !! 
+6 the confirm method is to make the isConfirmed attribute true , 
+and if its not confirmed then company will recieve a message tell them that your
+are not confirmed thank you for your visiting
+
+//filtring the offres if it is expired dont display it 
