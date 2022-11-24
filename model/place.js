@@ -12,8 +12,6 @@ const PlaceSchema = mongoose.Schema(
         type: mongoose.Types.ObjectId, //type du module mongoose
         ref: "Offre",
       },
-
-
     ]
 
   },
